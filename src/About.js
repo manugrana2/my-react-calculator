@@ -1,12 +1,12 @@
+import React from 'react';
+
 function About(){
     return (
     <div className="about">
         <h1>About</h1>
         <p> This is a simple yet useful calculator app developed by Jose Granados. </p>
-        <p> This app won't limit you the number of digits or decimals you can use to compute a algebraic operation.</p>
-        <p>Moreover, it could happen that you might find some errors.  </p>
         <p>If you are a little techy, you might already notice this page is hosted on Gitgub pages. </p>
-        <p>This apps has been created using  React and Pure CSS.</p>
+        <p>This apps has been created using  only React.js.</p>
         <h2>License and Usage</h2>
         <p>Copyright {'(c)'} 2022-2022 Jose Manuel Granados</p>
 

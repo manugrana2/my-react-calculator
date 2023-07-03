@@ -1,8 +1,8 @@
 import { useState } from "react";
 import React from "react";
+import About from "./About";
 function Calculator(){
     const numbers = ["CE","C","√","^","(",")","!","÷",1,2,3,"+",4,5,6,"-",7,8,9,"x",0,".","DEL","="]
-    
     const [result, setResult] = useState("0"); 
     const [operation, setOperation] = useState(null); 
     const [onScreen, setOnSreen] = useState(false)
@@ -113,9 +113,7 @@ function Calculator(){
             </div>
         </div>
         <div className="app-info">
-            <h3>About</h3>
-            <p> This is a simple yet useful calculator app developed by Jose Granados. </p>
-            <p> This app won't limit you the number of digits or decimals you can use to compute a algebraic operation.</p>
+            <About></About>
         </div>
         </>
     )
